@@ -23,7 +23,7 @@
 <?php
 $remarks = isset($_GET['remarks']) ? $_GET['remarks'] : '';
 if ($remarks==null and $remarks=="") {
-echo ' <div id="reg-head" class="headrg">Register Here</div> ';
+echo ' <div id="reg-head" class="headrg">Signup Here</div> ';
 }
 if ($remarks=='success') {
 echo ' <div id="reg-head" class="headrg">Registration Success</div> ';
